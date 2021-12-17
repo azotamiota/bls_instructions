@@ -4,14 +4,43 @@
     left: 0px;
     height: 100%;
     width: 15%;
-    /* min-width: 150px; */
     border: 1px solid black;
     padding: 2%;
 }
+#navhead {
+  margin-bottom: 10%;
+  text-align: center;
+}
 a {
-  display: block;
+  display: flex;
   border: 1px solid black;
-}   
+  height: 13%;
+  padding-left: 5%;
+  align-items: center;
+  background-color: rgb(240, 218, 157);
+  margin-bottom: 3%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  }
+  
+  a:visited {
+  text-decoration: none;
+  color: black;
+  }
+  
+  a:hover {
+  text-decoration: underline;
+  }
+  
+  a:active {
+  text-decoration: underline;
+  }
+.nav-link {
+  /* vertical-align: middle; */
+}
 main {
   margin-left: 19%; 
   border: 1px solid red;
