@@ -1,10 +1,24 @@
+body {
+  font-family:'Josefin Sans';
+  font-size: 20px;
+}
+p, div {
+  font-family: 'Josefin Slab';
+}
+.josl {
+  font-family: 'Josefin Slab';
+}
+header {
+  font-size: 30px;
+}
+
 #navbar {
     position: fixed;
     top: 0px;
     left: 0px;
     height: 100%;
     width: 15%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 2%;
 }
 #navhead {
@@ -13,8 +27,8 @@
 }
 a {
   display: flex;
-  border: 1px solid black;
-  height: 13%;
+  /* border: 1px solid black; */
+  height: 11%;
   padding-left: 5%;
   align-items: center;
   background-color: rgb(240, 218, 157);
@@ -42,15 +56,46 @@ a:link {
   /* vertical-align: middle; */
 }
 main {
+  display: inline-block;
   margin-left: 19%; 
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 2%;
 }
-  @media only screen and (max-width: 600px) {
-  body {
-  background-color: lightblue;
-  }
+  @media only screen and (max-width: 800px) {
   #navbar {
-    font-size:smaller;
+    font-size: 15px;
   }
   }
+     @media only screen and (max-width: 650px) {
+      header {
+      font-size: 20px;
+      }
+      body {
+        font-size: 15px;
+        }
+      #navbar {
+        font-size:10px;
+      }
+      }
+      @media only screen and (max-width: 420px) {
+        header {
+        font-size: 15px;
+        }
+        body {
+          font-size: 10px;
+          }
+        #navbar {
+          font-size:8px;
+        }
+        }
+        @media only screen and (max-width: 360px) {
+          header {
+          font-size: 15px;
+          }
+          body {
+            font-size: 10px;
+            }
+          #navbar {
+            font-size:7px;
+          }
+          }
