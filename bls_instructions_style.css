@@ -65,11 +65,9 @@ a:link {
   }
   
   a:hover {
-  text-decoration: underline;
   background-color: rgb(130, 52, 219);
   color: yellow;
   font-size: larger;
-  
   }
   
   a:active {
