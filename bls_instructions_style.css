@@ -37,6 +37,7 @@ code {
     width: 15%;
     border-right: 5px solid lightgrey;
     padding: 2%;
+    overflow: auto;
 }
 #navhead {
   margin-bottom: 10%;
