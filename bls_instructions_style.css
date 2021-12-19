@@ -51,6 +51,7 @@ a {
   align-items: center;
   background-color: rgb(240, 218, 157);
   margin-bottom: 3%;
+  transition: .5s;
 }
 
 a:link {
@@ -65,19 +66,24 @@ a:link {
   
   a:hover {
   text-decoration: underline;
+  background-color: rgb(130, 52, 219);
+  color: yellow;
+  font-size: larger;
+  
   }
   
   a:active {
   text-decoration: underline;
   }
-.nav-link {
-  /* vertical-align: middle; */
-}
+
 main {
   display: inline-block;
-  margin-left: 19%; 
-  /* border: 1px solid red; */
+  margin-left: 19%;
   padding: 2%;
+}
+::selection {
+  background-color: green;
+  color: yellow;
 }
   @media only screen and (max-width: 800px) {
   #navbar {
